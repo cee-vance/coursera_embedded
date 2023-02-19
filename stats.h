@@ -63,7 +63,7 @@
  *
  * @return no return
  */
- void print_array(int stats, int len);
+ void print_array(int *stats, int len);
  
  /**
  * @brief find_mean
@@ -128,7 +128,25 @@
  */
  void sort_array(int *stats, int len);
  
- int find_max(int *stats, int len);
+ 
+/* This function takes last element as pivot, places
+the pivot element at its correct position in sorted
+array, and places all smaller (smaller than pivot)
+to left of pivot and all greater elements to right
+of pivot */
+int partition(int arr[], int low, int high);
+ 
+  // A utility function to swap two elements
+void swap(int* a, int* b);
+
+/* The main function that implements QuickSort
+arr[] --> Array to be sorted,
+low --> Starting index,
+high --> Ending index */
+void quickSort(int arr[], int low, int high);
+
+// helper function for reversing an array of ints
+void reverse(int *arr, int len);
  
  
  
