@@ -41,3 +41,67 @@ void main() {
 }
 
 /* Add other Implementation File Code Here */
+
+// prints min,max ,median, mean of stats to the console with label
+void print_statistics(int *stats, int len){
+
+}
+
+// prints the contents of stats to the console , delimited by comma
+void print_array(int *stats, int len){
+
+}
+
+// find median of stats
+int find_median( int * stats, int len){
+
+}
+
+// find mean of stats
+int find_mean(int *stats, int len){
+
+}
+
+
+// find max of stats
+int find_maximum( int * stats, int len){
+
+}
+
+// find min of stats
+int find_minimum(int * stats, int len){
+
+
+}
+
+// sorts stats in-place
+void sort_array( int *stats, int len){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
