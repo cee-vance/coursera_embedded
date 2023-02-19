@@ -1,21 +1,18 @@
 /******************************************************************************
- * Copyright (C) 2017 by Alex Fosdick - University of Colorado
+ * Copyright (C) 2023 by Collin Hunt
  *
  * Redistribution, modification or use of this software in source or binary
- * forms is permitted as long as the files maintain this copyright. Users are 
- * permitted to modify this and use it to learn about the field of embedded
- * software. Alex Fosdick and the University of Colorado are not liable for any
- * misuse of this material. 
+ * forms is not permitted
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
- *
+ * @file stats.c
+ * @brief driver program for week 1 assignment of  module 1 
+ *	for coursera intro to embedded software development
  * <Add Extended Description Here>
- *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ 
+ * @author Collin Hunt
+ * @date 2/19/2023
  *
  */
 
